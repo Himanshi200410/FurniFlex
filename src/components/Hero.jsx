@@ -4,7 +4,7 @@ const Hero = () => {
       <img
         src="/src/assets/hero0.png" // Replace with your image path
         alt="Hero"
-        className="relative w-full h-[85vh]"
+        className="relative w-full h-[90vh]"
       />
 
      
