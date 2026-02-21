@@ -2,20 +2,20 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const categories = [
-  { name: "Kitchen Storage", image: "/src/assets/storage.webp" },
-  { name: "Coffee Table", image: "/src/assets/coffee.webp" },
+  { name: "Kitchen Storage", image: "/storage.webp" },
+  { name: "Coffee Table", image: "/coffee.webp" },
   
-  { name: "Pendant Lights", image: "/src/assets/lamp3.jpg" },
-  { name: "Showpieces", image: "/src/assets/showpiece.webp" },
-  { name: "Vase", image: "/src/assets/pot.jpg" },
-  { name: "Side Table", image: "/src/assets/table1.png" },
-  { name: "Lounge chair", image: "/src/assets/lounge.jpg" },
+  { name: "Pendant Lights", image: "/lamp3.jpg" },
+  { name: "Showpieces", image: "/showpiece.webp" },
+  { name: "Vase", image: "/pot.jpg" },
+  { name: "Side Table", image: "/table1.png" },
+  { name: "Lounge chair", image: "/lounge.jpg" },
   
-  { name: "Sofas", image: "/src/assets/sofa2.jpg" },
-  { name: "Clocks", image: "/src/assets/clock.webp" },
-  { name: "Dining Table", image: "/src/assets/dining.webp" },
-  { name: "Bar Cabinet", image: "/src/assets/bar.jpg" },
-   { name: "Decorative Mirrors", image: "/src/assets/mirror.jpg" },
+  { name: "Sofas", image: "/sofa2.jpg" },
+  { name: "Clocks", image: "/clock.webp" },
+  { name: "Dining Table", image: "/dining.webp" },
+  { name: "Bar Cabinet", image: "/bar.jpg" },
+   { name: "Decorative Mirrors", image: "/mirror.jpg" },
  
 ];
 

@@ -12,6 +12,8 @@ import OrderConfirmed from './pages/OrderConfirmed';
 import MainLayout from "./layouts/MainLayout";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
+import CreateProduct from "./components/CreateProduct"; 
+import { Toaster } from "react-hot-toast";
 
 const HomePage = () => (
   <>
@@ -25,6 +27,8 @@ const HomePage = () => (
 
 function App() {
   return (
+    <React.Fragment>
+     <Toaster />
     <Routes>
       
       <Route element={<MainLayout />}>
@@ -35,8 +39,10 @@ function App() {
         <Route path="/cart" element={<CartPage />} />
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/order-confirmed" element={<OrderConfirmed />} />
-      </Route>
+         <Route path="/admin/create-product" element={<CreateProduct />} />
+            </Route>
     </Routes>
+    </React.Fragment>
   );
 }
 

@@ -1,8 +1,8 @@
 import {ShoppingCart, Menu, X, User} from "lucide-react";
-import logo from "../assets/logo.png";
+import logo from "/logo.png";
 import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
-import dummyItems from "../data/dummyItems";
+//import dummyItems from "../data/dummyItems";
 
 const Navbar = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -125,6 +125,7 @@ const Navbar = () => {
   <button className="px-4 py-2 bg-green-800 text-white rounded">Login</button>
 </Link>
 
+
 <Link to="/register">
   <button className="px-4 py-2 bg-blue-800 text-white rounded">Register</button>
 </Link>
@@ -138,6 +139,9 @@ const Navbar = () => {
             <span>Cart</span>
           </Link>
         </div>
+        <Link to="/admin/create-product" className="btn btn-primary text-l font-bold text-white bg-purple-800 hover:bg-purple-900 rounded px-4 py-2">
+  Add New Product
+</Link>
 
         {/* 🔻 Mobile Menu Toggle */}
         <button
@@ -184,6 +188,7 @@ const Navbar = () => {
               ))}
             </ul>
           )}
+          <Link to="/admin/create-product">Add Product</Link>
 
           {/* Mobile Menu Items */}
           <div className="flex flex-col gap-4 text-gray-700 text-lg">

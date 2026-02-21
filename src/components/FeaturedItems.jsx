@@ -1,11 +1,11 @@
 const featuredItems = [
-  { image: "/src/assets/sofa2.jpg" },
-  { image: "/src/assets/lamp.jpg" },
-  { image: "/src/assets/shelf0.jpg" },
-  { image: "/src/assets/plate1.jpg" },
-  { image: "/src/assets/pot.jpg" },
-  { image: "/src/assets/table1.png" },
-  { image: "/src/assets/chair3.jpg" },
+  { image: "/sofa2.jpg" },
+  { image: "/lamp.jpg" },
+  { image: "/shelf0.jpg" },
+  { image: "/plate1.jpg" },
+  { image: "/pot.jpg" },
+  { image: "/table1.png" },
+  { image: "/chair3.jpg" },
 ];
 
 const FeaturedItems = () => {
@@ -13,7 +13,7 @@ const FeaturedItems = () => {
     <>
     <div className="mt-5">
   <img
-    src="/src/assets/banner.png" // 
+    src="/banner.png" // 
     alt="Furniture Carnival Offer"
     className="w-full h-36 shadow-md"
   />
