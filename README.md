@@ -1,12 +1,63 @@
-# React + Vite
+# FurniFlex – Frontend Furniture E-Commerce Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FurniFlex is a frontend-focused e-commerce web application built using React and Tailwind CSS.
+The project demonstrates real-world shopping UI flows such as product browsing, category
+navigation, cart management, and a mock checkout experience.
 
-Currently, two official plugins are available:
+This project is intentionally **frontend-only** and does not include a backend service.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- Responsive UI built with Tailwind CSS
+- Product listing with category-based navigation
+- Search bar with live suggestions
+- Add to cart and quantity management
+- Cart total calculation using Context API
+- Mock checkout / order confirmation flow
+- Login & Signup using browser localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- React Context API
+- localStorage
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+![Home](screenshots/home.png)
+
+### Product Listing
+![Products](screenshots/products.png)
+
+### Category
+![Category](screenshots/category.png)
+
+
+## 🧠 What I Learned
+- Structuring scalable React components
+- Managing global state using Context API
+- Implementing cart and checkout logic on the frontend
+- Handling UI-only authentication flows
+- Building responsive and user-friendly layouts
+
+---
+
+## ⚠️ Note
+This is a **frontend-only project** created to showcase frontend development skills.
+No backend APIs or real payment gateway are used.
+
+---
+
+## 📦 How to Run Locally
+1. Clone the repository  
+2. Run `npm install`  
+3. Run `npm start`  
+
+The application will run on `http://localhost:3000`.
